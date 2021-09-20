@@ -9,6 +9,13 @@ public class Bootclass {
 	}
 	public static void show()
 	{
+		int[] arr= {20,30,40};
+		for(int n:arr)
+		{
+			int sum=0;
+			sum+=n;
+			System.out.println(n);
+		}
 	System.out.println("show method here1");
 	}
 
